@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+<title data-rh="true"><%= petName %></title>
+<meta data-rh="true" name="twitter:card" content="summary">
+<meta data-rh="true" property="og:image" content="<%= petImage %>">
+<meta data-rh="true" name="twitter:image" content="<%= petImage %>">
+<meta data-rh="true" property="og:url" content="<%= petUrl %>">
+<meta data-rh="true" property="og:title" content="<%= petName %>">
+<meta data-rh="true" name="twitter:title" content="<%= petName %>; <%= petStats %>">
+<meta data-rh="true" name="description" content="<%= petStats %>">
+<meta data-rh="true" property="og:description" content="<%= petStats %>">
+</head>
+<body>
+<script>
+window.location.replace("<%= petUrl %>");
+</script>
+</body>
+</html>
